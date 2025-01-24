@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# strawbery-pi
-=======
 # StrawberryPi: Home Monitoring Hub for Temperature, Humidity, Light, and Gas Levels
 
 This project uses a Raspberry Pi 5 to monitor temperature, humidity, light levels, and gas presence (CO and LPG). The gas sensor detects carbon monoxide and LPG, and if gas is detected, the ppm is sent to a MariaDB database. An alert is also displayed on the LCD, indicating gas detection. Data is collected using C, sent to the database via Apache2 and PHP, and displayed on an LCD through a Python frontend. The system shows real-time data along with 7-day trends from the database.
@@ -158,9 +155,3 @@ This diagram helps in visualizing the connections between the Raspberry Pi and t
     ```
 This will start collecting data from the sensors and send it to the database while displaying real-time information and trends on the LCD.
 
-
-
-
-
-
->>>>>>> b658533 (Initial commit)
